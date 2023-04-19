@@ -6,7 +6,7 @@ const showMenu = (toggleId, navId) => {
       toggle.addEventListener("click", () => {
         nav.classList.toggle("show");
         toggle.classList.toggle("bx-x");
-      });
+      }); 
     }
   };
   showMenu("header-toggle", "nav-menu");
